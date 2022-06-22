@@ -1,0 +1,8 @@
+body {background-color: #C1DEAE  ;
+   font-family: cursive;}
+hr {
+   border-style: none;
+   border-top-style: dotted;
+   border-color: grey;
+   border-width: 5px;
+   width: 5%;}
