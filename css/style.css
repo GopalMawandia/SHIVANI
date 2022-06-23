@@ -1,6 +1,6 @@
 body {  background-color: #C1DEAE;
   font-family: cursive;}
-h1 {  color: #1F4690;}
+h1 {  color: #1F4690; }
 h2 { color: #9EB23B;}
 h3 { color: #990000;}
 hr {
@@ -10,3 +10,5 @@ hr {
   border-width: 5px;
   width: 5%;
 }
+
+.shivani { font-size: 50px; }
