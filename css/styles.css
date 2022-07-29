@@ -8,19 +8,10 @@ body {
   font-family: 'merriweather', serif;
 }
 .top {
-      font-size: 30px;
+    font-size: 30px;
     position: relative;
   padding-top: 100px;
   font-family: 'Sacramento', sans-serif;
-}
-
-.middle {
-
-}
-
-.bottom {
-
-
 }
 
 .mount {
@@ -42,3 +33,13 @@ body {
 .house {
   text-decoration: underline;
 }
+.a {margin: 1px;
+  border: 2px;
+  border-style: solid;
+  border-color: blue;
+  }
+  .b {margin: 1px;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+    }
