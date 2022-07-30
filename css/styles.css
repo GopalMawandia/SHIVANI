@@ -1,15 +1,21 @@
 body {
-    background-color: #E4F9F5;
+  background-color: #E4F9F5;
   text-align: center;
   margin: 0
 }
 
+p {
+  font-size: 2em;
+}
+
 .hh {
   font-family: 'merriweather', serif;
+  font-size: 4em;
 }
+
 .top {
-    font-size: 30px;
-    position: relative;
+  font-size: 20px;
+  position: relative;
   padding-top: 100px;
   font-family: 'Sacramento', sans-serif;
 }
@@ -26,20 +32,27 @@ body {
 
 .logo {
   height: 100px;
-
-
 }
 
 .house {
   text-decoration: underline;
 }
-.a {margin: 1px;
+
+.a {
+  margin: 1px;
   border: 2px;
   border-style: solid;
   border-color: blue;
+}
+
+.b {
+  margin: 1px;
+  border: 2px;
+  border-style: solid;
+  border-color: green;
+}
+
+.c{
+font-family: 'Sacramento', sans-serif;
+font-size: 2em;
   }
-  .b {margin: 1px;
-    border: 2px;
-    border-style: solid;
-    border-color: green;
-    }
