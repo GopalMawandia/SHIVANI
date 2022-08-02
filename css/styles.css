@@ -19,6 +19,7 @@ p {
   position: relative;
   padding-top: 100px;
   font-family: 'Sacramento', sans-serif;
+  color: green;
 }
 
 .mount {
@@ -56,4 +57,14 @@ p {
 .c{
 font-family: 'Sacramento', sans-serif;
 font-size: 2em;
+  }
+.bottom {
+  line-height: .25;
+  font-size: 1em;
+}
+.gg {
+  font-family: 'Sacramento', sans-serif;
+  color: green;
+  font-weight:bold;
+    line-height: .25;
   }
