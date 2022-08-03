@@ -65,6 +65,7 @@ font-size: 2em;
 .gg {
   font-family: 'Sacramento', sans-serif;
   color: green;
+  font-size: .75em;
   font-weight:bold;
     line-height: .25;
   }
