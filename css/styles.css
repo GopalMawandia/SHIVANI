@@ -1,11 +1,43 @@
 body {
   background-color: #E4F9F5;
   text-align: center;
-  margin: 0
+}
+
+hr {
+  border-top-style: hidden;
+  margin: 100px auto;
+}
+
+.end {
+  border-top-style: hidden;
+  width: 100%;
+  margin: 0;
+  padding-top: 0;
 }
 
 p {
+  font-size: 1.5em;
+  line-height: 2;
+  color: #1363DF;
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  font-family: 'merriweather', serif;
   font-size: 2em;
+  color: #1363DF;
+}
+
+h4 {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 1em;
+  color: #1363DF;
+  padding-top: 20px;
 }
 
 .hh {
@@ -14,16 +46,24 @@ p {
   color: #1363DF;
 }
 
+.pp {
+  color: green;
+  font-weight: bolder;
+}
+
 .top {
   font-size: 20px;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   font-family: 'Sacramento', sans-serif;
-  color: green;
 }
 
 .mount {
   height: 400px;
+}
+
+h3 {
+  font-size: 2em;
 }
 
 .cloud {
@@ -44,7 +84,7 @@ p {
   margin: 1px;
   border: 2px;
   border-style: solid;
-  border-color: blue;
+  border-color: #1363DF;
 }
 
 .b {
@@ -54,25 +94,40 @@ p {
   border-color: green;
 }
 
-.c{
-font-family: 'Sacramento', sans-serif;
-font-size: 2em;
-  }
-.bottom {
-  line-height: .7;
-  font-size: 1em;
-}
-.gg {
+.c {
   font-family: 'Sacramento', sans-serif;
-  color: green;
-  font-size: .75em;
-  font-weight:bold;
-    line-height: .25;
-  }
-h2 {
-  font-size: 2.5em;
-   color: #1363DF;
+  font-size: 2em;
+  margin-bottom: 30px;
 }
+
+.d {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.f {
+  height: 225px;
+  margin-left: 30px;
+  float: right;
+}
+
+.e {
+  height: 225px;
+  float: left;
+  margin: -70px 200px 0 30px;
+}
+
+.f {
+  height: 225px;
+  margin-right: 200px;
+  margin-left: 30px;
+  float: left;
+}
+
+.pillows {
+  padding-bottom: 20px;
+}
+
 .bottom {
   line-height: .5;
   font-size: 1em;
@@ -141,4 +196,9 @@ h2 {
   background-image: -o-linear-gradient(top, #abd9f5, #3498db);
   background-image: linear-gradient(to bottom, #abd9f5, #3498db);
   text-decoration: none;
+}
+
+.footer {
+  background-color: #C4DFAA;
+  padding-bottom: 20px;
 }
