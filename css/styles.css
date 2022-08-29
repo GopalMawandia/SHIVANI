@@ -214,6 +214,11 @@ p {
   transform: rotate(180deg);
 }
 
+.ss {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(1-);
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
