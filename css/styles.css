@@ -1,27 +1,53 @@
 body {
   font-family: Montserrat;
+  text-align: center;
 }
 
-#title {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat, sans-serif';
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #FF8243;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Sections */
+
+.colored-section {
   background-color: #FF8243;
   color: #fff;
 }
 
-.gg {
-  text-align: center;
+.white-section {
+  color: #FF8243;
+}
+
+#title {
+  text-align: left;
 }
 
 .title-image {
   width: 30%;
   transform: rotate(-25deg);
   position: absolute;
-}
-
-h1 {
-  font-family: 'Montserrat, sans-serif';
-  font-size: 4.5rem;
-  line-height: 1.5;
-  font-weight: 900;
 }
 
 .container-fluid {
@@ -32,12 +58,6 @@ h1 {
   padding: 0 0 4.5rem;
 }
 
-.navbar-brand {
-  font-family: Ubuntu;
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
 .nav-item {
   padding: 0 18px;
   font-family: Montserrat-300;
@@ -45,42 +65,8 @@ h1 {
   font-weight: bold;
 }
 
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
 .logo {
   width: 15%;
-}
-
-h1 {
-  font-family: 'Montserrat, sans-serif';
-  font-size: 4.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: Montserrat;
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1.5;
-  color: #FF8243;
-}
-
-h3 {
-  font-family: Montserrat;
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-p {
-  color: #8f8f8f;
-}
-
-.pp {
-  color: #FF8243;
-  font-weight: normal;
 }
 
 .container-fluid {
@@ -107,31 +93,8 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-#features {
-  padding: 7% 15%;
-  background-color: #fff;
-  position: relative;
-}
-
-.feature-box {
-  text-align: center;
-  padding: 5%;
-}
-
-.icon {
-  color: #FF8243;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #FF8243;
-}
-
 #curtain {
-  text-align: center;
-  color: #FF8243;
   padding-top: 5%;
-
 }
 
 .curtain-image {
@@ -140,66 +103,30 @@ p {
   border-radius: 100%;
 }
 
-#press {
-  text-align: center;
-  background-color: #FF8243;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
 .carousel-item {
   padding: 7% 15%;
 }
 
 #mattress {
   padding: 3%;
-  text-align: center;
-  background-color:#FF8243;
-  color: #fff;
 }
 
-.card-body {
-  background-color: #fff;
-}
 
 .pricing-column {
   padding: 3% 2%;
-  text-align: center;
 }
 
 .dd {
   color: #fff;
   font-weight: bold;
 }
-
 #bedsheet {
   padding-top: 3%;
-  text-align: center;
-}
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.cta-heading {
-  font-family: 'Montserrat, sans-serif';
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
 }
 
 #footer {
-  text-align: center;
   font-weight: 500;
   padding: 5%;
-  background-color: #FF8243;
 }
 
 .footer-text {
@@ -227,6 +154,10 @@ p {
   .title-image {
     position: static;
     transform: rotate(0);
-      width: 90%;
+    width: 90%;
+  }
+  .col-sm-12 {
+  flex: 0 0 auto;
+  width: 100%;
   }
 }
