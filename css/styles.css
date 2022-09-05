@@ -1,6 +1,7 @@
 body {
   font-family: Montserrat;
   text-align: center;
+  color: #fff
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,27 +18,21 @@ h2 {
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
-  color: #FF8243;
-}
+  }
 
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-p {
-  color: #8f8f8f;
-}
-
 /* Sections */
 
 .colored-section {
   background-color: #FF8243;
-  color: #fff;
 }
 
 .white-section {
-  color: #FF8243;
+  background-color: #006E7F;
 }
 
 #title {
@@ -117,7 +112,6 @@ p {
 }
 
 .dd {
-  color: #fff;
   font-weight: bold;
 }
 #bedsheet {
@@ -127,10 +121,6 @@ p {
 #footer {
   font-weight: 500;
   padding: 5%;
-}
-
-.footer-text {
-  color: #fff;
 }
 
 .footer-icon {
